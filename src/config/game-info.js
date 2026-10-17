@@ -3,12 +3,12 @@
 const pkg = require('../../package.json');
 
 module.exports = {
-  slug: 'CHANGE_ME',            // your group's game, lower case with hyphens, for example shelf-climb
-  name: 'CHANGE_ME',            // the name players will see
-  team: 'CHANGE_ME',            // your group's name and section, for example Bookworms (3-1)
-  developer: 'CHANGE_ME',       // YOUR GitHub username: this build is yours
-  description: 'CHANGE_ME',     // one sentence about how the game is played
+  slug: 'tile-quest-match-and-learn',            // your group's game, lower case with hyphens, for example shelf-climb
+  name: 'Tile Quest: A Fun Educational Tile-Matching Challenge',            // the name players will see
+  team: 'team 4_ bscs (3-1)',            // your group's name and section, for example Bookworms (3-1)
+  developer: 'honaaron5-dot',       // YOUR GitHub username: this build is yours
+  description: 'Match the required tiles, complete the puzzle, answer the quiz that pops up, and pass the level to reach higher levels.',     // one sentence about how the game is played
   min_players: 1,               // change to the limits your game is designed for
-  max_players: 30,
+  max_players: 20,
   version: pkg.version,         // read from package.json, do not edit here
 };
