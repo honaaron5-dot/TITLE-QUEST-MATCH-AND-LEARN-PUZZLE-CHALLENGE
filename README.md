@@ -1,10 +1,10 @@
-# [Your Game Title] API
+# [TITLE QUEST MATCH AND LEARN PUZZLE CHALLENGE] API
 
-Backend API for **[Your Game Title]**, a tournament game for the SorSU Bulan Campus library.
+Backend API for **[TITLE QUEST MATCH AND LEARN PUZZLE CHALLENGE]**, A Fun Educational Tile-Matching Challenge with Questions and Level Progression
 CS 313 Software Engineering 1, A.Y. 2026-2027.
 
-- Developer: [Your full name] ([your GitHub username]), BSCS [3-1 or 3-2]
-- Group and game concept: [Group name]
+- Developer: [Aron Glomar Hona] ([honaaron5 dot]), BSCS [3-1]
+- Group and game concept: [team 4 -Title Quest Match and Learn Challenge ]
 
 This is my own build of my group's game concept. Every commit in this repository was made by me, with Git, on my own computer or in my own Codespace.
 
