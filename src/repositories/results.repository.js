@@ -18,4 +18,4 @@ async function findFinishedGamePlayers(since) {
     type: QueryTypes.SELECT,
     replacements: { since: since ? since.toISOString() : null }
   });
-}
+} 
