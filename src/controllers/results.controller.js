@@ -16,7 +16,7 @@ async function getResults(req, res) {
     game: gameInfo.slug,
     developer: gameInfo.developer,
     generated_at: new Date().toISOString(),
-    results,
+    results: results
   });
 }
 
