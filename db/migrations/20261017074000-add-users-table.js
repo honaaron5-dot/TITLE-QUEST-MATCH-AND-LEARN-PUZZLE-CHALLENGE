@@ -1,42 +1,46 @@
 'use strict';
 
+/** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.createTable('users', {
-      id: {
-        type: Sequelize.INTEGER,
-        primaryKey: true,
-        autoIncrement: true,
+      user_id: {
         allowNull: false,
+        autoIncrement: true,
+        primaryKey: true,
+        type: Sequelize.INTEGER
       },
       school_id: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: false
       },
       full_name: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: false
       },
       email: {
         type: Sequelize.STRING,
-        allowNull: false,
+        allowNull: false
       },
       role: {
         type: Sequelize.STRING,
         allowNull: false,
+        defaultValue: 'player'
       },
       createdAt: {
-        type: Sequelize.DATE,
         allowNull: false,
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.fn('now')
       },
       updatedAt: {
-        type: Sequelize.DATE,
         allowNull: false,
-      },
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.fn('now')
+      }
     });
   },
 
   async down(queryInterface, Sequelize) {
     await queryInterface.dropTable('users');
-  },
+  }
 };
