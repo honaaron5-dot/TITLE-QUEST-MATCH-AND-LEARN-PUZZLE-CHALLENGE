@@ -3,7 +3,7 @@
 const pkg = require('../../package.json');
 
 module.exports = {
-  slug: 'tile-quest-match-and-learn',            // your group's game, lower case with hyphens, for example shelf-climb
+  slug: 'tile-quest-match-and-learn-puzzle-challenge',            // your group's game, lower case with hyphens, for example shelf-climb
   name: 'Tile Quest: A Fun Educational Tile-Matching Challenge',            // the name players will see
   team: 'team 4_ bscs (3-1)',            // your group's name and section, for example Bookworms (3-1)
   developer: 'honaaron5-dot',       // YOUR GitHub username: this build is yours

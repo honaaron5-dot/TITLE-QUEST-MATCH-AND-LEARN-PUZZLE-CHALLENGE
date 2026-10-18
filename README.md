@@ -43,9 +43,9 @@ npm run dev
 | PORT | 3001 | Port the API listens on (the library assigns the final port at deployment) |
 | DB_HOST | 127.0.0.1 | PostgreSQL host |
 | DB_PORT | 5432 | PostgreSQL port |
-| DB_NAME | your_game_slug | Database name: your game slug, with underscores |
+| DB_NAME | tile_quest_match_and_learn_puzzle_challenge | Database name: your game slug, with underscores |
 | DB_USER | postgres | Database user |
-| DB_PASSWORD | (your own) | Database password. Never commit this. |
+| DB_PASSWORD | (postgres) | Database password. Never commit this. |
 | HUB_API_KEY | dev-hub-key | Key the Library Game Hub sends to read results. The library gives the real one at deployment. |
 
 ## Endpoints (Hub Contract v1.2)
@@ -60,7 +60,7 @@ Base URL: `http://localhost:3001/api/v1`
 
 ## What "completed" means in my game
 
-[A player completed the game when they successfully finished the puzzle and achieved a score of 200 or higher.]
+[In Tile Quest, a player is considered to have completed a game when they successfully solve the tile-matching puzzle and correctly answer all associated quiz questions to clear the level.]
 
 ## Tables
 
@@ -81,3 +81,4 @@ game_progress
 | npm run db:check | Counts the rows in every table |
 | npm run db:reset | Empties the database, rebuilds every table and reloads the seed data |
 | npm run check | Runs the same automatic check that GitHub runs after every push |
+ 
